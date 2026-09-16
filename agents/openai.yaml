@@ -1,0 +1,6 @@
+interface:
+  display_name: "Connect an API with Executor"
+  short_description: "Connect API credentials without exposing them"
+  default_prompt: "Use $executor-connect-api to safely connect this API through Executor without exposing my credentials."
+policy:
+  allow_implicit_invocation: true
