@@ -61,7 +61,7 @@ Toolkit scoping has an important boundary:
 
 For client-specific work, configure only the intended toolkit endpoint for that agent or project. Use separate Executor identities or workspaces and a stronger execution boundary when the risk requires hard isolation.
 
-## What this repository contains
+## Skill files
 
 ```text
 .
@@ -70,7 +70,7 @@ For client-specific work, configure only the intended toolkit endpoint for that 
     └── openai.yaml
 ```
 
-`SKILL.md` is the complete workflow. `agents/openai.yaml` supplies Codex display metadata and the default invocation prompt.
+`SKILL.md` is the complete workflow. `agents/openai.yaml` supplies Codex display metadata and the default invocation prompt. The remaining repository files provide installation guidance and the MIT license.
 
 ## License and status
 
